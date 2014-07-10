@@ -172,8 +172,7 @@ a:after {
 /* Dark Grey Wrap */
 #dg {
 	background: #e0e0e0;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	
 	text-align: center;
 }
 
@@ -248,24 +247,28 @@ footer i:hover {
 
 /****** SECTIONS *****/
 
-#riders {
+.listing {
 	padding-top: 35px;
 }
 
-#riders a {
+.listing a {
     color: inherit;
 }
 
-#riders img {
+.listing p {
+  margin-bottom: 0;
+}
+
+.listing img {
     width: 75%;
     border-radius: 50%;
 }
 
-#riders h4 {
+.listing h4 {
 	font-weight: 700;
 }
 
-#riders i {
+.listing i {
 	color: #ff7878;
 	font-size: 30px;
 }
